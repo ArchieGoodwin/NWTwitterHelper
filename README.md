@@ -9,10 +9,11 @@ Usage:
 
 If you used external OAth you may store internal twitter account to iOS:
 
+``` objective-c
  [[twitterHelper sharedInstance] storeAccountWithAccessToken:access_token secret:token_secret completionBlock:^(BOOL result, NSError *error) {
   //some code          
  }];
- 
+```
  
  To get friends from twitter using twitter username (screen_name):
  
